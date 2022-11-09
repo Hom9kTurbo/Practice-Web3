@@ -1,6 +1,5 @@
 function renderTableRows(rows) {
     let chains = [];
-    console.log(rows)
     rows.forEach(function (item) {
       chains.push(`<tr>
         <td>${item.name}</td>
